@@ -575,6 +575,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .content-2 .content-2__container .content-2__image-block {
     width: 90%;
+    height: auto;
     margin-bottom: 50px;
   }
   .content-2 .content-2__container .content-2__image-block .content-2__image-1 {
