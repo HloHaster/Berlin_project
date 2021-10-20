@@ -551,25 +551,25 @@ $color__requirements: #666666;
         align-items: flex-start;
         margin-bottom: 5px;
 
-        .dollar {
+        span:first-of-type {
           font: bold 30px/36px $family;
           letter-spacing: -1.2px;
           margin-top: 10px;
         }
 
-        .price {
+        span:nth-child(2) {
           font: bold 46px/130% $family;
           letter-spacing: -0.3px;
           margin: 0 4px 0 1px;
         }
 
-        .slash {
+        span:nth-child(3)  {
           font: bold 17px/21px $family;
           margin-top: 30px;
           margin-right: 6px;
         }
 
-        .month {
+        span:last-of-type {
           font: bold 17px/21px $family;
           letter-spacing: -0.3px;
           margin-top: 30px;

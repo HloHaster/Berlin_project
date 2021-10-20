@@ -686,22 +686,22 @@ h1, h2, h3, h4, h5, h6 {
           align-items: flex-start;
   margin-bottom: 5px;
 }
-.list .list__container .list__tariff-block .tariff-block__price .dollar {
+.list .list__container .list__tariff-block .tariff-block__price span:first-of-type {
   font: bold 30px/36px "Inter", sans-serif;
   letter-spacing: -1.2px;
   margin-top: 10px;
 }
-.list .list__container .list__tariff-block .tariff-block__price .price {
+.list .list__container .list__tariff-block .tariff-block__price span:nth-child(2) {
   font: bold 46px/130% "Inter", sans-serif;
   letter-spacing: -0.3px;
   margin: 0 4px 0 1px;
 }
-.list .list__container .list__tariff-block .tariff-block__price .slash {
+.list .list__container .list__tariff-block .tariff-block__price span:nth-child(3) {
   font: bold 17px/21px "Inter", sans-serif;
   margin-top: 30px;
   margin-right: 6px;
 }
-.list .list__container .list__tariff-block .tariff-block__price .month {
+.list .list__container .list__tariff-block .tariff-block__price span:last-of-type {
   font: bold 17px/21px "Inter", sans-serif;
   letter-spacing: -0.3px;
   margin-top: 30px;
